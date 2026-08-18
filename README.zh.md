@@ -14,7 +14,7 @@
 ## 安装
 
 ```sh
-npm install dsh-trading-toolkit
+dsh plugin add kentleenot/dsh-trading-toolkit
 ```
 
 然后将插件加入你的 DeepSeek Harness 组合配置（参见 harness 第三方插件文档）。

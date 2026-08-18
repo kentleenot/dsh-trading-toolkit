@@ -1,0 +1,31 @@
+{
+  "name": "dsh-trading-toolkit",
+  "version": "0.1.0",
+  "description": "A-share + US stock trading toolkit for DeepSeek Harness agents: A股/美股行情查询 (EastMoney, no key), ADX regime signals (trend/oscillating/noise), and simple backtest previews. Read-only, no order placement.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./market": "./lib/market.js",
+    "./signal": "./lib/signal.js",
+    "./package.json": "./package.json"
+  },
+  "files": ["lib", "README.md", "README.zh.md"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  },
+  "keywords": ["deepseek-harness", "dsh", "dsh-plugin", "cordis", "plugin", "trading", "quant", "market", "signal", "adx", "a-share", "us-stock", "china-stock", "eastmoney"],
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-tools": "^0.1.0-rc.6",
+    "@deepseek-ai/schemastery": "^3.18.1"
+  },
+  "repository": { "type": "git", "url": "git+https://github.com/kentleenot/dsh-trading-toolkit.git" },
+  "homepage": "https://github.com/kentleenot/dsh-trading-toolkit#readme",
+  "bugs": { "url": "https://github.com/kentleenot/dsh-trading-toolkit/issues" },
+  "publishConfig": { "access": "public" }
+}

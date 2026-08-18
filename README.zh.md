@@ -14,8 +14,10 @@
 ## 安装
 
 ```sh
-dsh plugin add kentleenot/dsh-trading-toolkit
+dsh plugin --profile web add github:kentleenot/dsh-trading-toolkit
 ```
+
+（`web` 是 profile 名，可替换为你自己的 profile；该命令会在指定 profile 中安装本插件。）
 
 然后将插件加入你的 DeepSeek Harness 组合配置（参见 harness 第三方插件文档）。
 

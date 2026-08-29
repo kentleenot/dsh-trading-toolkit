@@ -62,6 +62,11 @@ npm test          # node --test test/
 node test/smoke-market.mjs   # 行情网络冒烟测试（A股+美股）
 ```
 
+## 相关阅读
+
+- 作者博客：[libuyan.top](https://libuyan.top) —— 量化交易策略实盘复盘（PrinciplesV2）、AI 与能源交叉分析、独立开发记录
+- 策略架构：[PrinciplesV2 三状态自适应策略](https://libuyan.top/posts/dsh-trading-toolkit/) 设计笔记
+
 ## License
 
 MIT
